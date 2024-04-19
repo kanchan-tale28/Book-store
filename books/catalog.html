@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        h1 {
+    text-align: center; /* Center align the text */
+    font-family: Arial, sans-serif; /* Set font family */
+    margin-top: 20px; /* Add some top margin for spacing */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+.catalog-title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+        
+        .book {
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .book img {
+            width: 100%;
+            height: auto;
+            max-height: 200px; /* Limit maximum height of the image */
+            object-fit: cover;
+        }
+        
+        .book-info {
+            flex-grow: 1; /* Allow book info to take remaining space */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        
+        .book-title,
+        .author {
+            margin: 0;
+            padding: 0 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>  book catalog </h1>
+    </header>
+   
+    <div class="book">
+        <img src="https://www.realsimple.com/thmb/-peF-thNTibpA5iArNXU693CTn8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/great-books-to-read-normal-people-crop-0649ede28a2144808e96aed6a1600aed.jpg" alt="Book 1">
+        <div class="book-info">
+            <h2 class="book-title">Normal people</h2>
+            <p class="author">James Bond</p>
+        </div>
+    </div>
+    <div class="book">
+        <img src="https://www.realsimple.com/thmb/_MIyBDAVD-ovPtTSvdMaWAzqJLU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/great-books-to-read-trust-exercise-crop-abe7887f0b194e5e9c502f49e4c72629.jpg" alt="Book 2">
+        <div class="book-info">
+            <h2 class="book-title">Trust exercise </h2>
+            <p class="author">Alana Boss</p>
+        </div>
+    </div>
+    <div class="book">
+        <img src="https://bookbins.in/wp-content/uploads/2023/01/Read-People-Like-A-Book-Patrick-King-Buy-Online-Bookbins-1.png" alt="Book 3">
+        <div class="book-info">
+            <h2 class="book-title">Read People Like a Book</h2>
+            <p class="author">Patrik King</p>
+        </div>
+    </div>
+    <div class="book">
+        <img src="https://jamesclear.com/wp-content/uploads/2022/09/9M-atomic-habits-dots.png" alt="Book 4">
+        <div class="book-info">
+            <h2 class="book-title">Atomic Habits</h2>
+            <p class="author">James Clear</p>
+        </div>
+    </div>
+    <div class="book">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRadU8ihJYBS8k1uRM13HTk2HnY8lA-tjjF3NfY47g_g&s" alt="Book 5">
+        <div class="book-info">
+            <h2 class="book-title">On Reading Well</h2>
+            <p class="author">Charls Van Doren</p>
+        </div>
+    </div>
+    <div class="book">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRN7WzNTYNiMI4lorwbBA4ZVRW94zDIMluai4-hOrBA&s" alt="Book 6">
+        <div class="book-info">
+            <h2 class="book-title">Book You Wish Your Parents Had Read</h2>
+            <p class="author">Phillipa perry</p>
+        </div>
+    </div>
+</body>
+</html>
