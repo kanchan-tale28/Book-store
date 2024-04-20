@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
- 
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
-    <title>BookishBliss</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-BookishBliss</title>
+    <link rel="stylesheet" href="style.css">
+     
+    <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
     <style>
         /*style.css*/
         body {
@@ -28,6 +29,8 @@
                     rgba(0, 0, 0, 0.2);
                 padding: 20px;
                 width: 300px;
+                margin: auto;
+                margin-top: 100px;
             }
  
 h1 {
@@ -55,8 +58,8 @@ input {
     border-radius: 5px;
 }
  
-button {
-    padding: 15px;
+.wrap {
+    padding: 5px;
     border-radius: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -72,12 +75,23 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
     </style>
     
 </head>
  
 <body>
+    <header>
+        <nav class="navbar">
+           <div class="logo">
+            <h2>BookishBliss</h2>
+           </div>
+
+           <div class="navmenu">
+            
+           </div>
+        </nav>
     <div class="main-login">
         <h1>BookishBliss</h1>
         <h3>Enter your login credentials</h3>
@@ -99,10 +113,8 @@ button {
                    placeholder="Enter your Password" required>
  
             <div class="wrap">
-                <button type="submit"
-                        onclick="solve()">
-                    Submit
-                </button>
+               <a href="index.html" type="submit" class="btn"> Submit
+                </a>
             </div>
         </form>
         <p>Not registered? 

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online book store | HTML css</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     
+    <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+    
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            margin: 0 20px; /* Increased margin from both sides */
+            
+        }
+
+        .book {
+            width: calc(30% - 40px); /* Adjusted width to accommodate increased margin */
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .book-info {
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+       
+    </style>
+
+</head>
+<body>
+      <header>
+        <nav class="navbar">
+           <div class="logo">
+            <h2>BookishBliss</h2>
+           </div>
+
+           <div class="navmenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog1.html">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registeration.html">Contact us</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="search" class="search" placeholder="search here......">
+                <i class="bx bx-search"></i>
+            </div>
+           </div>
+        </nav>
+
+   
+    
+      <center> <h1>Book Catalog</h1></center> 
+   
+    <main>
+        <section class="book">
+            <img src="https://m.media-amazon.com/images/I/91TSWWb8qfL._AC_UF1000,1000_QL80_.jpg" width="500px">
+            <div class="book-info">
+                <h2>The Famous Five</h2>
+                <p>Author: Enid Blyton</p>
+                <p>Price: 500</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="book">
+            <img src="https://cdn.lifehack.org/wp-content/uploads/2022/11/41j-s9fHJcL._SL500_.webp" width="500px" >
+            <div class="book-info">
+                <h2>To Kill A Mokking Bird</h2>
+                <p>Author: Hpper Lee</p>
+                <p>Price: $299</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="book">
+            <img src="https://cdn.penguin.co.uk/dam-assets/books/9780241621905/9780241621905-jacket-large.jpg" width="500px">
+            <div class="">
+                <h2>The Secret History</h2>
+                <p>Author: Donna Tart</p>
+                <p>Price: 99</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="book">
+            <img src="https://s26162.pcdn.co/wp-content/uploads/2018/02/gatsby-original2.jpg" width="500px">
+            <div class="book-info">
+                <h2>The Great Gatsby</h2>
+                <p>Author: F-Scoot</p>
+                <p>Price: 899</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="book">
+            <img src="https://s26162.pcdn.co/wp-content/uploads/2021/10/The-Catcher-in-the-Rye-First-Edition-cover-E.-Michael-Mitchell.jpg" width="500px">
+            <div class="book-info">
+                <h2>The Catcher In The Rye</h2>
+                <p>Author: J.D Salinger</p>
+                <p>Price: 433</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="book">
+            <img src="https://s26162.pcdn.co/wp-content/uploads/2018/10/invisibleman-1509049531-640x996.jpg" width="500px">
+            <div class="book-info">
+                <h2>Invisible Man</h2>
+                <p>Author: Ralph Elison</p>
+                <p>Price: 500</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="book">
+            <img src="https://www.adobe.com/express/create/cover/media_19d5e212dbe8553614c3a9fbabd4d7f219ab01c85.png?width=750&format=png&optimize=medium" width="500px">
+            <div class="book-info">
+                <h2>Dont Look Back</h2>
+                <p>Author: Isacc Nelson</p>
+                <p>Price: 766</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="book">
+            <img src="https://i.pinimg.com/236x/ba/d3/4a/bad34ac1d27cd1bbf258a0bc325e2db6.jpg" width="500px">
+            <div class="book-info">
+                <h2>Anand Math</h2>
+                <p>Author: Bankimchandra Chatterjee</p>
+                <p>Price: 1000</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="book">
+            <img src="https://marketplace.canva.com/EAFaQMYuZbo/1/0/1003w/canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg" width="500px">
+            <div class="book-info">
+                <h2>Soul</h2>
+                <p>Author: Olivis Bond</p>
+                <p>Price: 499</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <!-- Add more book sections as needed -->
+    </main>
+     
+      </header>
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>
